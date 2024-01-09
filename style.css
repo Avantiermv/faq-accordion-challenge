@@ -1,1 +1,54 @@
 @charset "UTF-8";
+
+
+
+:root{
+    --cor1: rgba(245, 158, 245, 0.342);
+    --cor2: white;
+    --cor3: rgb(195, 37, 209);
+}
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    height: 220px;
+    margin: -8px;
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+}
+
+main{
+    margin: auto;
+    margin-top: -90px;
+    width: 800px;
+    height: 560px;
+}
+
+div#conteúdo{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    height: 550px;
+    border-radius: 30px;
+    background-color: var(--cor2);
+}
+
+
+div#conteúdo > h1{
+    font-size: 40px;
+}
+
+div#resto{
+    margin: 30px;
+}
+
+p{
+    margin: 25px;
+    padding: 10px;
+}
+
+p:hover{
+    color: var(--cor3);
+    cursor: pointer;
+    transition: 0.3s;
+}
