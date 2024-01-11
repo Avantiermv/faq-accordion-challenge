@@ -34,6 +34,7 @@ div#conteúdo{
 }
 
 div.esconder{
+    display: none;
     margin: auto;
     margin-top: -33px;
     padding: 10px;
