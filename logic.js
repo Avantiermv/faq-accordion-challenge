@@ -2,8 +2,8 @@ function pressionar1() {
     let imagem = document.querySelector(' div:nth-child(2) p img');//*essse nth-child serve para indentificar se a div é a número 1 ou 2 ou 3, na hierarquia.
     imagem.src = './assets/images/icon-minus.svg';
 
-    let texto = document.querySelector('div.esconder')
-    texto = style(div)
+   
+
 
 }
 
