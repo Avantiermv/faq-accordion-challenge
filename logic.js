@@ -34,7 +34,6 @@ function esconderDivs() {
     let divs = document.querySelectorAll('.esconder');
     for(let i = 0; i < divs.length; i++) {
         divs[i].style.display = 'none';
-        divs[i].style.transition = '0.5s';
 
         let imagem = document.querySelector('div:nth-child(' + (i + 2) + ') p img');
         imagem.src = './assets/images/icon-plus.svg';
