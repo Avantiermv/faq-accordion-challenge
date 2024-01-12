@@ -1,25 +1,46 @@
 function pressionar1() {
-    let imagem = document.querySelector(' div:nth-child(2) p img');//*essse nth-child serve para indentificar se a div é a número 1 ou 2 ou 3, na hierarquia.
+    esconderDivs();
+    let div = document.querySelector('div:nth-child(2) .esconder');
+    div.style.display = 'block';
+    let imagem = document.querySelector('div:nth-child(2) p img');
     imagem.src = './assets/images/icon-minus.svg';
-
-   
-
-
 }
 
 function pressionar2() {
-    var imagem = document.querySelector(' div:nth-child(3) p img');
+    esconderDivs();
+    let div = document.querySelector('div:nth-child(3) .esconder');
+    div.style.display = 'block';
+    var imagem = document.querySelector('div:nth-child(3) p img');
     imagem.src = './assets/images/icon-minus.svg';
 }
 
 function pressionar3() {
-    var imagem = document.querySelector(' div:nth-child(4) p img');
+    esconderDivs();
+    let div = document.querySelector('div:nth-child(4) .esconder');
+    div.style.display = 'block';
+    var imagem = document.querySelector('div:nth-child(4) p img');
     imagem.src = './assets/images/icon-minus.svg';
 }
 
 function pressionar4() {
-    var imagem = document.querySelector(' div:nth-child(5) p img');
+    esconderDivs();
+    let div = document.querySelector('div:nth-child(5) .esconder');
+    div.style.display = 'block';
+    var imagem = document.querySelector('div:nth-child(5) p img');
     imagem.src = './assets/images/icon-minus.svg';
 }
+
+function esconderDivs() {
+    let divs = document.querySelectorAll('.esconder');
+    for(let i = 0; i < divs.length; i++) {
+        divs[i].style.display = 'none';
+        divs[i].style.transition = '0.5s';
+
+        let imagem = document.querySelector('div:nth-child(' + (i + 2) + ') p img');
+        imagem.src = './assets/images/icon-plus.svg';
+    }
+   
+}
+
 
 
