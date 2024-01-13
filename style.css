@@ -20,6 +20,39 @@ header{
 main{
     margin: auto;
     margin-top: -90px;
-    width: 800px;
-    height: 560px;
+}
+
+div#conteúdo{
+    width: 600px;
+    height: 530px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--cor2);
+}
+
+div#conteúdo > h1{
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+div.esconder{
+    display: none;
+}
+
+div.todotexto{
+    width: 300px;
+    height: 80px;
+    margin: auto;
+}
+
+div.paragrafos{
+    font-size: large;
+    cursor: pointer;
+}
+
+div.paragrafos:hover{
+    color: var(--cor3);
+    transition: 0.3s;
 }
