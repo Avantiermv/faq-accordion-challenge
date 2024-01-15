@@ -9,9 +9,9 @@ function pressionar1(){
 
     
 
-    if (estado1 == true){
+    if (estado2 == true){
         window.alert("Rapaz!")
-    } else if (estado2 == true){
+    } else if (estado1 == true){
         window.alert("Rapaz o 2 tá ativo")
     }
 
@@ -24,6 +24,8 @@ function pressionar2(){
 
     let texto = document.querySelector('.todotexto:nth-of-type(2) > .paragrafos > .esconder');
     texto.style.display = 'block';
+
+    
 }
 
 
