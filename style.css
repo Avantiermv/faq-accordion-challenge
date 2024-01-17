@@ -6,7 +6,7 @@
 
 :root{
     --cor1: rgba(245, 158, 245, 0.342);
-    --cor2: rgb(160, 154, 154);
+    --cor2: rgb(104, 101, 101);
     --cor3: rgb(195, 37, 209);
     --font1: font-family: 'Work Sans', sans-serif;
 }
@@ -27,7 +27,7 @@ main{
 
 div#conteúdo{
     width: 600px;
-    height: 530px;
+    height: 550px;
     margin: auto;
     border-radius: 15px;
     background-color: white;
@@ -35,8 +35,12 @@ div#conteúdo{
 
 div#conteúdo > h1{
     margin: 10px;
-    padding: 10px;
+    padding: 22px;
 
+}
+
+div.paragrafos > p{
+    font-family: var(--font1);
 }
 
 
@@ -66,4 +70,73 @@ div.paragrafos{
 div.paragrafos:hover{
     color: var(--cor3);
     transition: 0.3s;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    header{
+        height: 190px;
+        margin: -47px;
+        background-image: url(./assets/images/background-pattern-desktop.svg);
+    }
+
+
+    main{
+    margin: auto;
+    margin-top: -90px;
+    }
+
+    div#conteúdo{
+    width: 410px;
+    height: 550px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    }
+
+    div#conteúdo > h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 29px;
+    }
+
+    div.paragrafos > p{
+        font-size: 15px;
+        margin: 10px;
+        font-family: var(--font1);
+        font-weight: bolder;
+    }
+
+    div.esconder{
+        display: none;
+        font-size: 12px;
+        font-style: italic;
+        font-family: var(--font1);
+        background-color: white;
+    }
+    
+    div.esconder > p.esconderp{
+        color: var(--cor2);
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    div.todotexto{
+        width: 410px;
+        height: 80px;
+        margin: auto;
+    }
+    
+    div.paragrafos{
+        font-size: large;
+        cursor: pointer;
+    }
+    
+    div.paragrafos:hover{
+        color: var(--cor3);
+        transition: 0.3s;
+    }
 }
