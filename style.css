@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
 
 :root{
     --cor1: rgba(245, 158, 245, 0.342);
-    --cor2: white;
+    --cor2: rgb(160, 154, 154);
     --cor3: rgb(195, 37, 209);
+    --font1: font-family: 'Work Sans', sans-serif;
 }
 body{
     background-color: var(--cor1);
@@ -27,7 +30,7 @@ div#conteúdo{
     height: 530px;
     margin: auto;
     border-radius: 15px;
-    background-color: var(--cor2);
+    background-color: white;
 }
 
 div#conteúdo > h1{
@@ -39,10 +42,19 @@ div#conteúdo > h1{
 
 div.esconder{
     display: none;
+    height: 200px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: var(--font1);
+    background-color: white;
+}
+
+div.esconder > p.esconderp{
+    color: var(--cor2);
 }
 
 div.todotexto{
-    width: 300px;
+    width: 410px;
     height: 80px;
     margin: auto;
 }

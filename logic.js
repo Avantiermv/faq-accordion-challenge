@@ -1,10 +1,16 @@
 function pressionar1(){
     
+    let divtodo = document.querySelector('.todotexto');
+    divtodo.style.height = '200px';
+
     let imagem1 = document.querySelector('.todotexto:nth-of-type(1) > .paragrafos > p > img');
     imagem1.src = './assets/images/icon-minus.svg';
 
     let texto1 = document.querySelector('.todotexto:nth-of-type(1) > .paragrafos > .esconder');
     texto1.style.display = 'block';
+
+    
+    
 
     //* pressionar2
     let imagem2 = document.querySelector('.todotexto:nth-of-type(2) .paragrafos p img');
@@ -19,7 +25,7 @@ function pressionar1(){
      
      let texto3 = document.querySelector('.todotexto:nth-of-type(3) > .paragrafos > .esconder');
      texto3.style.display = 'none';
-
+    
 
     //*pressionar4
     let imagem4 = document.querySelector('.todotexto:nth-of-type(4) .paragrafos p img');
