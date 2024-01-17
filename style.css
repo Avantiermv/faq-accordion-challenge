@@ -42,7 +42,6 @@ div#conteúdo > h1{
 
 div.esconder{
     display: none;
-    height: 200px;
     font-size: 15px;
     font-style: italic;
     font-family: var(--font1);

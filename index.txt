@@ -20,3 +20,21 @@ FAQs
   
   The best place to get help is inside Frontend Mentor's Discord community. There's a help 
   channel where you can ask questions and seek support from other community members.
+
+
+
+
+
+   //* pressionar3
+     let imagem3 = document.querySelector('.todotexto:nth-of-type(3) .paragrafos p img');
+     imagem3.src = './assets/images/icon-plus.svg';
+     
+     let texto3 = document.querySelector('.todotexto:nth-of-type(3) > .paragrafos > .esconder');
+     texto3.style.display = 'none';
+
+      //* pressionar4
+      let imagem4 = document.querySelector('.todotexto:nth-of-type(4) .paragrafos p img');
+      imagem4.src = './assets/images/icon-plus.svg';
+      
+      let texto4 = document.querySelector('.todotexto:nth-of-type(4) > .paragrafos > .esconder');
+      texto4.style.display = 'none';
