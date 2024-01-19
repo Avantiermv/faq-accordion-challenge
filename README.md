@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here](https://github.com/Avantiermv/faq-accordion-challenge)
-- Live Site URL: [Live site URL here](https://avantiermv.github.io/faq-accordion-challenge/)
+- Solution URL: [Solution URL](https://github.com/Avantiermv/faq-accordion-challenge)
+- Live Site URL: [Live site URL](https://avantiermv.github.io/faq-accordion-challenge/)
 
 ## My process
 
