@@ -76,6 +76,16 @@ footer{
     text-align: center;
 }
 
+footer > p > a{
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+
+footer > p > a:hover{
+    color: var(--cor3);
+    transition: 0.3s;
+}
+
 @media screen and (max-width: 600px){
     header{
         height: 190px;
@@ -107,7 +117,7 @@ footer{
         font-size: 15px;
         margin: 10px;
         font-family: var(--font1);
-        font-weight: bolder;
+        font-weight: bold;
     }
 
     div.esconder{
